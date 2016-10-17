@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">  
+<properties>  
+	<comment>SmartZh Analyzer 扩展配置</comment>
+	<!--用户可以在这里配置自己的扩展字典 -->
+	<entry key="ext_dict">analysis/ext.txt;</entry> 
+	
+	<!--用户可以在这里配置自己的扩展停止词字典 -->
+	<entry key="ext_stopwords">analysis/stopwords.txt;</entry> 
+	 
+	<!-- 用户配置自己同义词库 -->
+	<entry key="ext_synonyms">analysis/synonyms.txt</entry>
+</properties>
